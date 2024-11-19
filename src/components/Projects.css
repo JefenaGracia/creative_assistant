@@ -1,0 +1,63 @@
+/* src/components/Projects.css */
+
+.projects-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #EAEAEA; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects-container h1 {
+  font-size: 1.8rem; 
+  color: #333; 
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center; 
+}
+
+.project-item {
+  background-color: #FFFFFF;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+  width: 220px; 
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out; 
+}
+
+.project-item:hover {
+  transform: translateY(-4px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.project-item h3 {
+  font-size: 1.2rem; 
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.project-item button {
+  background-color: #5F6368; 
+  color: white;
+  padding: 8px 16px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem; 
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-item button:hover {
+  background-color: #4A4A4A; 
+  transform: scale(1.05);
+}

@@ -1,0 +1,52 @@
+/* src/components/ManageClassroom.css */
+
+.manage-classroom {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #EAEAEA; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.manage-classroom h2 {
+  font-size: 1.5rem;
+  color: #333; 
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.student-list {
+  margin-top: 15px;
+}
+
+.student-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  background-color: #FFFFFF; 
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.student-list div:hover {
+  background-color: #F5F5F5; 
+}
+
+.student-list button {
+  background-color: #5F6368; 
+  color: white;
+  padding: 6px 12px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem; 
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.student-list button:hover {
+  background-color: #4A4A4A; 
+  transform: scale(1.03);
+}

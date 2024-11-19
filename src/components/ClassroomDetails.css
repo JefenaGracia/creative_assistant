@@ -1,0 +1,28 @@
+/* src/components/ClassroomDetails.css */
+.classroom-details {
+  padding: 20px;
+  font-family: 'Arial', sans-serif; 
+}
+
+.classroom-details h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px; 
+}
+
+.students-list {
+  margin-top: 20px;
+}
+
+.students-list p {
+  font-size: 1.2rem;
+  color: #333; 
+  margin-bottom: 10px; 
+}
+
+/* Add hover effects to student list items */
+.students-list p:hover {
+  color: #ffffff; 
+  cursor: pointer;
+  text-decoration: underline; 
+}

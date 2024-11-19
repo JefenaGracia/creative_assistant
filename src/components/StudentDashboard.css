@@ -1,0 +1,136 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EAEAEA; 
+  margin: 0;
+}
+
+.student-dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #444; 
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #666; 
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sidebar-button:hover {
+  background-color: #555; 
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 250px; 
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+h1 {
+  font-size: 14px;
+  color: #FFF;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+ h3,h2 {
+  font-size: 14px;
+  color: #333; 
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+
+.classroom-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+}
+
+.classroom-button {
+  padding: 12px 20px;
+  font-size: 14px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 180px; 
+}
+
+.classroom-button:hover {
+  background-color: #444; 
+}
+
+.assignments-list {
+  margin-top: 20px;
+}
+
+.assignment-card {
+  background-color: #F1F1F1; 
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-button {
+  padding: 8px 16px;
+  background-color: #888; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #666; 
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.no-classrooms {
+  font-size: 16px;
+  color: #777; 
+  margin-top: 20px;
+  text-align: center;
+}
